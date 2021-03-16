@@ -1,0 +1,45 @@
+
+.avatar-main-display{
+display:flex;
+padding:0.5em;
+margin:0.5em;
+}
+
+
+.avatar-sizes, .avatar-with-badge-sizes,.avatar-group{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding:0.5em;
+    margin:0.5em;
+}
+.avatar-x-small {
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+  }
+  .avatar-small {
+    vertical-align: middle;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+  .avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  .avatar-large {
+    vertical-align: middle;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+  }
+  .avatar-x-large {
+    vertical-align: middle;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
