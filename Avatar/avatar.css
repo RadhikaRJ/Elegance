@@ -1,0 +1,50 @@
+body{
+   
+}
+:root{
+
+}
+.header{
+    border: 2px solid red;
+    text-align: center;
+    margin:0.5em;
+}
+.container{
+    border: 2px solid black;
+    display:flex;
+    margin:0.5em;
+}
+main{
+    border: 2px solid blue;
+    padding:0.5em;
+    margin:0.5em;
+}
+.preview{
+    border:2px solid orange;
+    padding:0.5em;
+    margin:0.5em;
+}
+.main-container{   
+    width:675px;
+    margin:0 auto;
+}
+aside{
+    border: 2px solid green;
+    float:left;
+    text-align: left;
+    padding:0.5em;
+    margin:0.5em;
+}
+aside>ul>li{
+    padding:0.25em;
+    list-style-type: none;
+}
+aside>ul>li>a{
+   text-decoration: none;
+}
+footer{
+    text-align: center;
+    border: 2px solid magenta;
+    margin:0.5em;
+    padding:0.25em;
+}
