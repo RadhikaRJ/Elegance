@@ -9,10 +9,7 @@
     border-radius:1em;
 }
 
-.simple-alert{
-background-color: white;
 
-}
 .warning-alert{
 background-color: rgb(226, 80, 80);
 border: 1px solid rgb(226, 80, 80);
