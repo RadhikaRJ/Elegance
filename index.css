@@ -1,6 +1,6 @@
 body {
-    background: black;
-    color: white;
+    /* background: black;
+    color: white; */
 }
 
 .header {
@@ -43,14 +43,14 @@ aside {
 }
 
 aside>ul>li {
-    padding: 0.25em;
+    padding: 0.5em;
     list-style-type: none;
     margin: 1em;
 }
 
 aside>ul>li>a {
     text-decoration: none;
-    color: white;
+    /* color: white; */
     padding: 0.5em;
 
 }
@@ -63,7 +63,8 @@ footer {
 }
 
 .current-page {
-    border: 2px solid white;
+    border: 2px solid black;
+    border-radius:1em;
 
 }
 
@@ -75,8 +76,10 @@ footer {
 }
 
 .component-container {
-    display: flex;
-    flex-wrap: wrap;
+   display:flex;
+   justify-content: space-between;
+   flex-direction: column;
+   
 }
 
 .component-description{
