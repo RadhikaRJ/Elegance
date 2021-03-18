@@ -1,10 +1,4 @@
 
-.avatar-main-display{
-
-padding:0.5em;
-margin:0.5em;
-
-}
 
 .avatar-border{
   /* border: 2px solid red; */
@@ -16,6 +10,7 @@ margin:0.5em;
     margin: 0.5em;
     padding: 0.25em;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     /* border: 2px solid green; */
     
 }
