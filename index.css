@@ -13,7 +13,9 @@ body {
     /* border: 2px solid black; */
     display: flex;
     margin: 0 auto;
-    width: fit-content;
+    align-items: flex-start;
+    justify-content: center;
+    
 
 }
 
@@ -36,10 +38,12 @@ main {
 
 aside {
     /* border: 2px solid green; */
-    float: left;
+    float: left top;
     text-align: left;
     padding: 0.5em;
     margin: 0.5em;
+   
+   
 }
 
 aside>ul>li {
@@ -84,5 +88,22 @@ footer {
 
 .component-description{
     letter-spacing: 1px;
+    
+}
+
+.squareEdge-bordered-btn-container,.squareEdge-filled-btn-container,.roundEdge-btn-container,.button-style-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap:wrap;
+    align-items: flex-start;
+    
+}
+.squareEdge-bordered-btn-container>section,.squareEdge-filled-btn-container>section,.roundEdge-btn-container>section{
+    margin:0.5em 1em 0.5em 1em;
+}
+
+hr{
+    margin:1em;
+    font-weight: 800;
     
 }
