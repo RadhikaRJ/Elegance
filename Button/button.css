@@ -139,7 +139,7 @@
 .pink-background {
     border: 2px solid #FB8DA0;
     background-color: #FB8DA0;
-    color: black;
+    color: white;
 }
 
 .fuchsia-bordered {
@@ -203,7 +203,7 @@
 .lightbrown-background {
     border: 2px solid #D0B49F;
     background-color: #D0B49F;
-    color: black;
+    color: white;
 }
 .darkbrown-bordered {
     border: 2px solid #523A28;
@@ -224,4 +224,8 @@
     border: 2px solid black;
     background-color: black;
     color: white;
+}
+
+.social-media-btn{
+    height:30px;
 }
