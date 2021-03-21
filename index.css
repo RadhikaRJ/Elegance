@@ -97,7 +97,8 @@ footer {
 .squareEdge-filled-btn-container,
 .roundEdge-btn-container,
 .button-style-container,
-.icon-btn-sizes-container{
+.icon-btn-sizes-container,
+.icon-btn-container{
     display: flex;
     justify-content: space-evenly;
     flex-wrap:wrap;
@@ -110,7 +111,8 @@ footer {
 .squareEdge-filled-btn-container>section,
 .roundEdge-btn-container>section,
 .button-style-container>section,
-.icon-btn-sizes-container>section{
+.icon-btn-sizes-container>section,
+.icon-btn-container>section{
     margin:0.5em 1em 0.5em 1em;
 }
 
