@@ -1,12 +1,12 @@
 .btn {
     padding: 0.5em 1em 0.5em 1em;
-    background-color: transparent;
+    
 }
 
 .btn-round-edges {
     border-radius: 1em;
     padding: 0.5em 1.5em 0.5em 1.5em;
-    background-color: transparent;
+   
 }
 
 .link-btn{
@@ -18,7 +18,7 @@
 
 .btn-text{
     padding: 0.5em 1em 0.5em 1em;
-    background-color: transparent;
+   
     border:none;    
     letter-spacing: 1px;
     font-weight:700;
@@ -34,18 +34,18 @@ CSS Button Classes for size Large & Small
 
 .btn-size-largest{
     padding: 0.5em 1em 0.5em 1em;
-    background-color: transparent;
+   
     font-size:x-large;
 }
 .btn-size-large{
     padding: 0.5em 1em 0.5em 1em;
-    background-color: transparent;
+    
     font-size:large;
 }
 
 .btn-size-small{
  padding: 0.5em 1em 0.5em 1em;
- background-color: transparent;
+ 
  font-size:x-small;
 }
 
