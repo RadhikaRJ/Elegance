@@ -9,223 +9,53 @@
     background-color: transparent;
 }
 
-
-.violet-bordered {
-    border: 2px solid #8A6FDF;
-    color: #8A6FDF;
+.link-btn{
+    text-decoration:none;
+    border: 1px solid;
+    color:black;
+    padding:0.5em;
 }
 
-.violet-background {
-    border: 2px solid #8A6FDF;
-    background-color: #8A6FDF;
-    color: white;
+.btn-text{
+    padding: 0.5em 1em 0.5em 1em;
+    background-color: transparent;
+    border:none;    
+    letter-spacing: 1px;
+    font-weight:700;
 }
 
-.indigo-bordered {
-    border: 2px solid #50006C;
-    color: #50006C;
+
+/*
+***************************************************
+
+CSS Button Classes for size Large & Small
+***************************************************
+*/
+
+.btn-size-largest{
+    padding: 0.5em 1em 0.5em 1em;
+    background-color: transparent;
+    font-size:x-large;
+}
+.btn-size-large{
+    padding: 0.5em 1em 0.5em 1em;
+    background-color: transparent;
+    font-size:large;
 }
 
-.indigo-background {
-    border: 2px solid #50006C;
-    background-color: #50006C;
-    color: white;
+.btn-size-small{
+ padding: 0.5em 1em 0.5em 1em;
+ background-color: transparent;
+ font-size:x-small;
 }
 
-.blue-bordered {
-    border: 2px solid #0000FF;
-    color: #0000FF;
-}
+/*
+***************************************************
 
-.blue-background {
-    border: 2px solid #0000FF;
-    background-color: #0000FF;
-    color: white;
-}
-
-.navyblue-bordered {
-    border: 2px solid #000C66;
-    color:#000C66;
-}
-
-.navyblue-background {
-    border: 2px solid #000C66;
-    background-color: #000C66;
-    color: white;
-}
-
-.skyblue-bordered {
-    border: 2px solid #7EC8E3;
-    color: #7EC8E3;
-}
-
-.skyblue-background {
-    border: 2px solid #7EC8E3;
-    background-color: #7EC8E3;
-    color: white;
-}
-
-.green-bordered {
-    border: 2px solid #5CD85A;
-    color: #5CD85A;
-}
-
-.green-background {
-    border: 2px solid #5CD85A;
-    background-color: #5CD85A;
-    color: white;
-}
-
-.grassgreen-bordered {
-    border: 2px solid #A8E10C;
-    color: #A8E10C;
-}
-
-.grassgreen-background {
-    border: 2px solid #A8E10C;
-    background-color: #A8E10C;
-    color: white;
-}
-
-.darkgreen-bordered {
-    border: 2px solid #1D741B;
-    color: #1D741B;
-}
-
-.darkgreen-background {
-    border: 2px solid #1D741B;
-    background-color: #1D741B;
-    color: white;
-}
-
-.yellow-bordered {
-    border: 2px solid #FFDB15;
-    color: #FFDB15;
-}
-
-.yellow-background {
-    border: 2px solid #FFDB15;
-    background-color: #FFDB15;
-    color: white;
-}
-
-.amber-bordered {
-    border: 2px solid #FFCD23;
-    color: #FFCD23;
-}
-
-.amber-background {
-    border: 2px solid #FFCD23;
-    background-color: #FFCD23;
-    color: white;
-}
-
-.orange-bordered {
-    border: 2px solid #FF9636;
-    color: #FF9636;
-}
-
-.orange-background {
-    border: 2px solid #FF9636;
-    background-color: #FF9636;
-    color: white;
-}
-
-.pink-bordered {
-    border: 2px solid #FB8DA0;
-    color: #FB8DA0;
-}
-
-.pink-background {
-    border: 2px solid #FB8DA0;
-    background-color: #FB8DA0;
-    color: white;
-}
-
-.fuchsia-bordered {
-    border: 2px solid #FB4570;
-    color: #FB4570;
-}
-
-.fuchsia-background {
-    border: 2px solid #FB4570;
-    background-color: #FB4570;
-    color: white;
-}
-.red-bordered {
-    border: 2px solid #FF2511;
-    color: #FF2511;
-}
-
-.red-background {
-    border: 2px solid #FF2511;
-    background-color: #FF2511;
-    color: white;
-}
-
-.coralred-bordered {
-    border: 2px solid #FF5765;
-    color: #FF5765;
-}
-
-.coralred-background {
-    border: 2px solid #FF5765;
-    background-color: #FF5765;
-    color: white;
-}
-
-.rosered-bordered {
-    border: 2px solid #FF2768;
-    color: #FF2768;
-}
-
-.rosered-background {
-    border: 2px solid #FF2768;
-    background-color: #FF2768;
-    color: white;
-}
-.brown-bordered {
-    border: 2px solid #A47551;
-    color: #A47551;
-}
-
-.brown-background {
-    border: 2px solid #A47551;
-    background-color: #A47551;
-    color: white;
-}
-
-.lightbrown-bordered {
-    border: 2px solid #D0B49F;
-    color: #D0B49F;
-}
-
-.lightbrown-background {
-    border: 2px solid #D0B49F;
-    background-color: #D0B49F;
-    color: white;
-}
-.darkbrown-bordered {
-    border: 2px solid #523A28;
-    color: #523A28;
-}
-
-.darkbrown-background {
-    border: 2px solid #523A28;
-    background-color: #523A28;
-    color: white;
-}
-.black-bordered {
-    border: 2px solid black;
-    color: black;
-}
-
-.black-background {
-    border: 2px solid black;
-    background-color: black;
-    color: white;
-}
-
-.social-media-btn{
-    height:30px;
-}
+CSS ICON Button Classes for size Large & Small
+***************************************************
+*/
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }

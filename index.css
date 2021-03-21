@@ -91,14 +91,26 @@ footer {
     
 }
 
-.squareEdge-bordered-btn-container,.squareEdge-filled-btn-container,.roundEdge-btn-container,.button-style-container{
+.textColor-btn-container,
+.button-sizes-container,
+.squareEdge-bordered-btn-container,
+.squareEdge-filled-btn-container,
+.roundEdge-btn-container,
+.button-style-container,
+.icon-btn-sizes-container{
     display: flex;
     justify-content: space-evenly;
     flex-wrap:wrap;
     align-items: flex-start;
     
 }
-.squareEdge-bordered-btn-container>section,.squareEdge-filled-btn-container>section,.roundEdge-btn-container>section{
+.textColor-btn-container>section,
+.button-sizes-container>section,
+.squareEdge-bordered-btn-container>section,
+.squareEdge-filled-btn-container>section,
+.roundEdge-btn-container>section,
+.button-style-container>section,
+.icon-btn-sizes-container>section{
     margin:0.5em 1em 0.5em 1em;
 }
 
