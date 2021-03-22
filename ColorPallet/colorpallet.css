@@ -14,6 +14,7 @@ CSS Classes for Color, Border & Background
 .violet-bordered {
     border: 2px solid #8A6FDF;
     color: #8A6FDF;
+    background-color: white;
 }
 
 .violet-background {
@@ -28,6 +29,7 @@ CSS Classes for Color, Border & Background
 .indigo-bordered {
     border: 2px solid #50006C;
     color: #50006C;
+    background-color: white;
 }
 
 .indigo-background {
@@ -43,6 +45,7 @@ CSS Classes for Color, Border & Background
 .blue-bordered {
     border: 2px solid #0000FF;
     color: #0000FF;
+    background-color: white;
 }
 
 .blue-background {
@@ -58,6 +61,7 @@ CSS Classes for Color, Border & Background
 .navyblue-bordered {
     border: 2px solid #000C66;
     color:#000C66;
+    background-color: white;
 }
 
 .navyblue-background {
@@ -72,6 +76,7 @@ CSS Classes for Color, Border & Background
 .skyblue-bordered {
     border: 2px solid #7EC8E3;
     color: #7EC8E3;
+    background-color: white;
 }
 
 .skyblue-background {
@@ -87,6 +92,7 @@ CSS Classes for Color, Border & Background
 .green-bordered {
     border: 2px solid #5CD85A;
     color: #5CD85A;
+    background-color: white;
 }
 
 .green-background {
@@ -101,6 +107,7 @@ CSS Classes for Color, Border & Background
 .grassgreen-bordered {
     border: 2px solid #A8E10C;
     color: #A8E10C;
+    background-color: white;
 }
 
 .grassgreen-background {
@@ -115,6 +122,7 @@ CSS Classes for Color, Border & Background
 .darkgreen-bordered {
     border: 2px solid #1D741B;
     color: #1D741B;
+    background-color: white;
 }
 
 .darkgreen-background {
@@ -129,6 +137,7 @@ CSS Classes for Color, Border & Background
 .yellow-bordered {
     border: 2px solid #FFDB15;
     color: #FFDB15;
+    background-color: white;
 }
 
 .yellow-background {
@@ -143,6 +152,7 @@ CSS Classes for Color, Border & Background
 .amber-bordered {
     border: 2px solid #FFCD23;
     color: #FFCD23;
+    background-color: white;
 }
 
 .amber-background {
@@ -157,6 +167,7 @@ CSS Classes for Color, Border & Background
 .orange-bordered {
     border: 2px solid #FF9636;
     color: #FF9636;
+    background-color: white;
 }
 
 .orange-background {
@@ -171,6 +182,7 @@ CSS Classes for Color, Border & Background
 .pink-bordered {
     border: 2px solid #FB8DA0;
     color: #FB8DA0;
+    background-color: white;
 }
 
 .pink-background {
@@ -185,6 +197,7 @@ CSS Classes for Color, Border & Background
 .fuchsia-bordered {
     border: 2px solid #FB4570;
     color: #FB4570;
+    background-color: white;
 }
 
 .fuchsia-background {
@@ -199,6 +212,7 @@ CSS Classes for Color, Border & Background
 .red-bordered {
     border: 2px solid #FF2511;
     color: #FF2511;
+    background-color: white;
 }
 
 .red-background {
@@ -213,6 +227,7 @@ CSS Classes for Color, Border & Background
 .coralred-bordered {
     border: 2px solid #FF5765;
     color: #FF5765;
+    background-color: white;
 }
 
 .coralred-background {
@@ -227,6 +242,7 @@ CSS Classes for Color, Border & Background
 .rosered-bordered {
     border: 2px solid #FF2768;
     color: #FF2768;
+    background-color: white;
 }
 
 .rosered-background {
@@ -241,6 +257,7 @@ CSS Classes for Color, Border & Background
 .brown-bordered {
     border: 2px solid #A47551;
     color: #A47551;
+    background-color: white;
 }
 
 .brown-background {
@@ -255,6 +272,7 @@ CSS Classes for Color, Border & Background
 .lightbrown-bordered {
     border: 2px solid #D0B49F;
     color: #D0B49F;
+    background-color: white;
 }
 
 .lightbrown-background {
@@ -269,6 +287,7 @@ CSS Classes for Color, Border & Background
 .darkbrown-bordered {
     border: 2px solid #523A28;
     color: #523A28;
+    background-color: white;
 }
 
 .darkbrown-background {
@@ -280,6 +299,7 @@ CSS Classes for Color, Border & Background
 .black-bordered {
     border: 2px solid black;
     color: black;
+    background-color: white;
 }
 
 .black-background {
