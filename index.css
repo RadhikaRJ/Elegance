@@ -100,7 +100,8 @@ footer {
 .icon-btn-sizes-container,
 .icon-btn-container,
 .badge-on-icon-container,
-.text-badge-container{
+.text-badge-container, 
+.rating-sizes{
     display: flex;
     justify-content: space-evenly;
     flex-wrap:wrap;
@@ -115,7 +116,8 @@ footer {
 .button-style-container>section,
 .icon-btn-sizes-container>section,
 .icon-btn-container>section,
-.badge-on-icon-container>div{
+.badge-on-icon-container>div,
+.rating-sizes>section{
     margin:0.5em 1em 0.5em 1em;
 }
 
