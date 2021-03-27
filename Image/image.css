@@ -1,0 +1,10 @@
+.responsive-image  {
+    width: 100%;
+    display:flex;
+    object-fit: cover;
+    flex-grow: inherit;
+    flex-shrink: inherit;
+ 
+     
+    
+   }
