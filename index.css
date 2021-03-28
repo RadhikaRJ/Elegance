@@ -1,12 +1,39 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gabriela&display=swap');
+
+:root{
+    --primary-color:#F9FAFB;
+
+    --secondary-color:#831843;
+
+    --tertiary-color:#7F1D1D;
+
+    --current-selected-color:white;
+    font-family:'Gabriela', serif;
+
+
+}
+hr{
+    margin:2em;
+    font-weight: 800;
+    border-color:var(--secondary-color);
+    
+}
 body {
     /* background: black;
     color: white; */
+    background-color: var(--primary-color);
+    color:var(--secondary-color);
 }
 
 .header {
     /* border: 2px solid red; */
     text-align: center;
     margin: 0.5em;
+    background-color: var(--primary-color);
+    color:var(--secondary-color);
+    
+
 }
 
 .container {
@@ -42,8 +69,8 @@ aside {
     text-align: left;
     padding: 0.5em;
     margin: 0.5em;
-   
-   
+    border-right: 2px solid var(--secondary-color);
+  
 }
 
 aside>ul>li {
@@ -53,12 +80,18 @@ aside>ul>li {
 }
 
 aside>ul>li>a {
-    text-decoration: none;
-    /* color: white; */
+    text-decoration: none;    
     padding: 0.5em;
+    background-color: var(--secondary-color);
+    color:white;
 
 }
 
+aside>ul>li>a:hover{
+    background-color: white;
+    color:var(--secondary-color);
+    border: 2px solid var(--tertiary-color);
+}
 footer {
     text-align: center;
     /* border: 2px solid magenta; */
@@ -67,9 +100,10 @@ footer {
 }
 
 .current-page {
-    border: 2px solid black;
+    border: 2px solid var(--tertiary-color);
     border-radius:1em;
-
+   background-color: var(--current-selected-color);
+   color:var(--secondary-color);
 }
 
 .component-main-display {
@@ -106,6 +140,7 @@ footer {
     justify-content: space-evenly;
     flex-wrap:wrap;
     align-items: flex-start;
+   
     
 }
 .textColor-btn-container>section,
@@ -121,8 +156,3 @@ footer {
     margin:0.5em 1em 0.5em 1em;
 }
 
-hr{
-    margin:2em;
-    font-weight: 800;
-    
-}
