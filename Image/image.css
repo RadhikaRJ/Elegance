@@ -1,10 +1,17 @@
-.responsive-image  {
-    width: 100%;
-    display:flex;
-    object-fit: cover;
-    flex-grow: inherit;
-    flex-shrink: inherit;
- 
-     
-    
-   }
+.responsive-image-container{
+ display: flex;
+flex-wrap:wrap;
+
+}
+
+.responsive-image-container>img{
+    /* width: 200px;  */
+    width:100;
+    height: auto;
+    margin: 0.5em;  
+}
+
+.set-image-width-350px{
+    width: 350px;
+}
+
